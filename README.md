@@ -2,6 +2,22 @@
 Implementation of the algorithm of Quine and McCluskey
 in Kotlin.
 
+# Kotlin
+## Installing the kotlin compiler
+Follow this tutorial to install kotlin: [https://kotlinlang.org/docs/tutorials/command-line.html](https://kotlinlang.org/docs/tutorials/command-line.html) for your OS.
+## Compilation
+In the source directory run
+```
+kotlinc Main.kt MinTerm.kt -include-runtime -d QMC.jar
+```
+to compile the programm.
+
+To execute the programm run:
+```
+java -jar QMC.jar
+```
+
+
 ## Usage
 This program takes the path to a truth table in csv
 format and prints the minified term to the stdout.
