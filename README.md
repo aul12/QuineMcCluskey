@@ -8,13 +8,13 @@ Follow this tutorial to install kotlin: [https://kotlinlang.org/docs/tutorials/c
 ## Compilation
 In the source directory run
 ```
-kotlinc Main.kt MinTerm.kt -include-runtime -d QMC.jar
+kotlinc Main.kt MinTerm.kt
 ```
 to compile the programm.
 
 To execute the programm run:
 ```
-java -jar QMC.jar
+kotlin MainKt
 ```
 
 
